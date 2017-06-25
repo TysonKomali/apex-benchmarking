@@ -2,12 +2,13 @@
 
 # Framework for evaluating Governor Limits
 
-[FinantialForce Apex Mocks libary needed](https://github.com/financialforcedev/fflib-apex-mocks)
+Dependences needed:
 
-[FinantialForce Apex Common](https://github.com/financialforcedev/fflib-apex-common)
+[FinantialForce Apex Mocks](https://github.com/financialforcedev/fflib-apex-mocks)
+
+[FinantialForce Apex Common library](https://github.com/financialforcedev/fflib-apex-common)
 
 ### All 'benchmark' test should extend from ApexBenchmarkFrameworkTemplate class and implement the runCode() method. Example:
-
 
 
 ```Apex
@@ -52,5 +53,16 @@ public class Benchmark_DML_Insert_UOW_Limit extends ApexBenchmarkFrameworkTempla
         
 }
 ```
+
+The project contains several benchmars to compare. Is necesary to set the log levels this way:
+
+![LogLevels](https://github.com/lucianostraga/apex-benchmarking/blob/master/images/logLevels.png)
+
+### Limits obtained for the previous example:
+
+![Limit1](https://github.com/lucianostraga/apex-benchmarking/blob/master/images/limitExample1.png)
+
+![Limit2](https://github.com/lucianostraga/apex-benchmarking/blob/master/images/limitExample2.png)
+
 
 
