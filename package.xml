@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>ApexBenchmarkFrameworkTemplate</members>
+        <members>BenchmarkServiceTest</members>
+        <members>Benchmark_DML_Database_Insert</members>
+        <members>Benchmark_DML_Database_Upsert</members>
+        <members>Benchmark_DML_Inser_Dynamic_ListFull</members>
+        <members>Benchmark_DML_Insert</members>
+        <members>Benchmark_DML_Insert_Database_ListFull</members>
+        <members>Benchmark_DML_Insert_Dynamic</members>
+        <members>Benchmark_DML_Insert_List150</members>
+        <members>Benchmark_DML_Insert_ListFull</members>
+        <members>Benchmark_DML_Insert_UOW_Limit</members>
+        <members>Benchmark_DML_Upsert</members>
+        <members>Benchmark_DML_Upsert_ListFull</members>
+        <members>Benchmark_SOQL_Dynamic</members>
+        <members>Benchmark_SOQL_Static</members>
+        <members>Benchmark_SOQL_Static_For1</members>
+        <members>Benchmark_SOQL_Static_For2</members>
+        <members>Benchmark_SOQL_Static_For3</members>
+        <members>Benchmark_SOQL_Static_For4</members>
         <name>ApexClass</name>
     </types>
     <version>36.0</version>
