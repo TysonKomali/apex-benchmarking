@@ -2,7 +2,11 @@
 
 # Framework for evaluating Governor Limits
 
-All 'benchmark' test should extend from ApexBenchmarkFrameworkTemplate class and implement the runCode() method. Example:
+[FinantialForce Apex Mocks libary needed](https://github.com/financialforcedev/fflib-apex-mocks)
+
+[FinantialForce Apex Common](https://github.com/financialforcedev/fflib-apex-common)
+
+### All 'benchmark' test should extend from ApexBenchmarkFrameworkTemplate class and implement the runCode() method. Example:
 
 
 
